@@ -60,20 +60,20 @@
     };
     arrows {
       bindings = <
-        &none  &none  &none  &none  &none  &none  &none                                                          &none  &none  &none     &none     &none      &none   &none
-        &none  &none  &none  &none  &none  &none  &none                                                          &none  &none  &kp HOME  &kp UP    &kp END    &none   &none
-        &none  &none  &none  &none  &none  &none  &none         &none  &none                &none  &none         &none  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none
-        &none  &none  &none  &none  &none  &none         &none  &none  &none  &none  &none  &none  &none  &none         &none  &none     &none     &none      &none   &none
-        &none  &none  &none  &none  &none                &none  &none  &none                &none  &none  &none                &none     &none     &none      &none   &none
+        &none   &none  &none  &none  &none  &none  &none                                                          &none  &none  &none     &none     &none      &none   &none
+        &none   &none  &none  &none  &none  &none  &none                                                          &none  &none  &kp HOME  &kp UP    &kp END    &none   &none
+        &none   &none  &none  &none  &none  &none  &none         &LCTRL &none                &none  &RCTRL        &none  &none  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none
+        &LSHFT  &none  &none  &none  &none  &none         &none  &none  &none  &none  &none  &none  &none  &none         &none  &none     &none     &none      &none   &RSHFT
+        &none   &none  &none  &none  &none                &none  &none  &none                &none  &none  &none                &none     &none     &none      &none   &none
       >;
     };
     hjkl {
       bindings = <
-        &none  &none  &none  &none  &none  &none  &none                                                          &none  &none     &none     &none   &none      &none   &none
-        &none  &none  &none  &none  &none  &none  &none                                                          &none  &none     &kp HOME  &none   &kp END    &none   &none
-        &none  &none  &none  &none  &none  &none  &none         &none  &none                &none  &none         &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none   &none
-        &none  &none  &none  &none  &none  &none         &none  &none  &none  &none  &none  &none  &none  &none         &none     &none     &none   &none      &none   &none
-        &none  &none  &none  &none  &none                &none  &none  &none                &none  &none  &none                   &none     &none   &none      &none   &none
+        &none   &none  &none  &none  &none  &none  &none                                                          &none  &none     &none     &none   &none      &none   &none
+        &none   &none  &none  &none  &none  &none  &none                                                          &none  &none     &kp HOME  &none   &kp END    &none   &none
+        &none   &none  &none  &none  &none  &none  &none         &LCTRL &none                &none  &RCTRL        &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &none   &none
+        &LSHFT  &none  &none  &none  &none  &none         &none  &none  &none  &none  &none  &none  &none  &none         &none     &none     &none   &none      &none   &RSHFT
+        &none   &none  &none  &none  &none                &none  &none  &none                &none  &none  &none                   &none     &none   &none      &none   &none
       >;
     };
   };
