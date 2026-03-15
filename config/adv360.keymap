@@ -24,10 +24,11 @@
       bt0_then_f24: bt0_then_f24 {
               compatible = "zmk,behavior-macro";
               #binding-cells = <0>;
-              bindings =
-                  <&bt BT_SEL 0>;
-                  <&macro_wait_time 200>;
-                  <&kp F24>;
+              bindings
+                  = <&bt BT_SEL 0>
+                  , <&macro_wait_time 200>;
+                  , <&kp F24>
+                  ;
       };
     };
 
