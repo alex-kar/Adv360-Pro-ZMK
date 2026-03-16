@@ -26,8 +26,8 @@
               #binding-cells = <0>;
               bindings
                   = <&bt BT_SEL 0>
-                  , <&macro_wait_time 200>
-                  , <&kp C_AL_CALCULATOR>
+                  , <&macro_wait_time 300>
+                  , <&kp C_PAUSE>
                   ;
       };
 
@@ -36,8 +36,8 @@
               #binding-cells = <0>;
               bindings
                   = <&bt BT_SEL 1>
-                  , <&macro_wait_time 200>
-                  , <&kp C_AL_CALCULATOR>
+                  , <&macro_wait_time 300>
+                  , <&kp C_PAUSE>
                   ;
       };
       bt2_notify: bt2_notify {
@@ -45,8 +45,8 @@
               #binding-cells = <0>;
               bindings
                   = <&bt BT_SEL 2>
-                  , <&macro_wait_time 200>
-                  , <&kp C_AL_CALCULATOR>
+                  , <&macro_wait_time 300>
+                  , <&kp C_PAUSE>
                   ;
       };
     };
@@ -61,7 +61,7 @@
         &kp TAB   &kp Q     &kp W    &kp E    &kp R      &kp T  &none                                                                         &none    &kp Y     &kp U    &kp I    &kp O    &kp P    &kp BSLH
         &kp ESC   &kp A     &kp S    &kp D    &kp F      &kp G  &none           &kp LCTRL &kp LALT &kp RALT  &kp RCTRL           &none &kp H  &kp J    &kp K     &kp L    &kp SEMI &kp SQT
         &kp LSHFT &kp Z     &kp X    &kp C    &kp V      &kp B                            &kp DEL  &kp LGUI                            &kp N  &kp M    &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
-        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp ESC   &mo 4    &mo 5     &kp ENTER &kp SPACE              &kp C_PAUSE &kp PSCRN  &kp C_AL_CALC &kp K_APP &mo 2
+        &mo 2     &kp GRAVE &kp CAPS &kp LEFT &kp RIGHT                &kp BSPC &kp ESC   &mo 4    &mo 5     &kp ENTER &kp SPACE              &kp LBKT &kp RBKT  &kp LBKT &kp RBKT &mo 2
       >;
     };
     keypad {
