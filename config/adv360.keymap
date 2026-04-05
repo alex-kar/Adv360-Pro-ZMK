@@ -27,7 +27,7 @@
               bindings
                   = <&bt BT_SEL 0>
                   , <&macro_wait_time 300>
-                  , <&kp F20>
+                  , <&kp F13>
                   ;
       };
 
@@ -37,7 +37,7 @@
               bindings
                   = <&bt BT_SEL 1>
                   , <&macro_wait_time 300>
-                  , <&kp F20>
+                  , <&kp F13>
                   ;
       };
       bt2_notify: bt2_notify {
@@ -46,7 +46,7 @@
               bindings
                   = <&bt BT_SEL 2>
                   , <&macro_wait_time 300>
-                  , <&kp F20>
+                  , <&kp F13>
                   ;
       };
     };
