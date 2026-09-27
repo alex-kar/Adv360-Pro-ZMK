@@ -25,7 +25,7 @@
               compatible = "zmk,behavior-macro";
               #binding-cells = <0>;
               bindings
-                  = <&kp F19>
+                  = <&kp F17>
                   , <&bt BT_SEL 0>
                   ;
       };
@@ -34,7 +34,7 @@
               compatible = "zmk,behavior-macro";
               #binding-cells = <0>;
               bindings
-                  = <&kp F20>
+                  = <&kp F18>
                   , <&bt BT_SEL 1>
                   ;
       };
@@ -42,7 +42,7 @@
               compatible = "zmk,behavior-macro";
               #binding-cells = <0>;
               bindings
-                  = <&kp F21>
+                  = <&kp F19>
                   , <&bt BT_SEL 2>
                   ;
       };
